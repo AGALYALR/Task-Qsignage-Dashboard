@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f0fdf4"/>
+  <path d="M40 200 C 100 160, 140 240, 200 200 S 300 120, 360 180" fill="none" stroke="#34d399" stroke-width="4"/>
+  <circle cx="80" cy="190" r="8" fill="#22c55e"/>
+  <circle cx="180" cy="210" r="8" fill="#16a34a"/>
+  <circle cx="260" cy="160" r="8" fill="#10b981"/>
+  <circle cx="330" cy="180" r="8" fill="#84cc16"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#065f46">Map-based Targeting</text>
+</svg>
+

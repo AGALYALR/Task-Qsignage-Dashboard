@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fef3c7"/>
+  <rect x="60" y="60" width="280" height="180" rx="12" fill="#fff7ed" stroke="#f59e0b"/>
+  <rect x="80" y="90" width="240" height="20" rx="4" fill="#f59e0b" opacity="0.9"/>
+  <rect x="80" y="120" width="160" height="16" rx="4" fill="#fbbf24"/>
+  <rect x="80" y="150" width="200" height="16" rx="4" fill="#fde68a"/>
+  <rect x="80" y="180" width="120" height="16" rx="4" fill="#fcd34d"/>
+  <text x="200" y="230" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#92400e">Smart Billing</text>
+</svg>
+

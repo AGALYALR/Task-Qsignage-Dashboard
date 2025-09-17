@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e0e7ff"/>
+  <rect x="70" y="70" width="260" height="160" rx="12" fill="#eef2ff" stroke="#6366f1"/>
+  <rect x="90" y="100" width="40" height="40" rx="6" fill="#818cf8"/>
+  <rect x="140" y="100" width="40" height="40" rx="6" fill="#a5b4fc"/>
+  <rect x="190" y="100" width="40" height="40" rx="6" fill="#c7d2fe"/>
+  <rect x="240" y="100" width="40" height="40" rx="6" fill="#a5b4fc"/>
+  <rect x="290" y="100" width="20" height="40" rx="6" fill="#818cf8"/>
+  <rect x="90" y="150" width="180" height="20" rx="4" fill="#6366f1"/>
+  <text x="200" y="230" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#3730a3">Smart Scheduling</text>
+</svg>
+

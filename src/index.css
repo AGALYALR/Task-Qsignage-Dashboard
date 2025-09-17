@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Dark mode removed */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Status indicators */
+.status-online {
+  background-color: #10b981;
+}
+
+.status-offline {
+  background-color: #ef4444;
+}
+
+.status-warning {
+  background-color: #f59e0b;
+}
+
+.status-critical {
+  background-color: #dc2626;
+}
+
+.status-good {
+  background-color: #10b981;
+}
+
+/* Material-UI Theme Integration - single light theme */
+.MuiTypography-root {
+  color: inherit;
+}
+
+.MuiTableCell-root {
+  color: inherit;
+}
+
+.MuiCardContent-root {
+  color: inherit;
+}
+
+.MuiPaper-root {
+  color: inherit;
+}
+
+.MuiCard-root {
+  color: inherit;
+}
+
+.MuiChip-root {
+  color: inherit;
+}
+
+.MuiTextField-root .MuiInputBase-root {
+  color: inherit;
+}
+
+.MuiTextField-root .MuiInputLabel-root {
+  color: inherit;
+}
+
+.MuiButton-root {
+  color: inherit;
+}
+
+.MuiIconButton-root {
+  color: inherit;
+}
+
+.MuiListItemText-primary {
+  color: inherit;
+}
+
+.MuiListItemText-secondary {
+  color: inherit;
+}
+
+.MuiFormLabel-root {
+  color: inherit;
+}
+
+.MuiInputBase-input {
+  color: inherit;
+}
